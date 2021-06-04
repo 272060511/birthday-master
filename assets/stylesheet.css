@@ -1,13 +1,12 @@
 body {
 	/*background-color: #FFDAB9;	*/
-	background-color: #fff;
+	background-color: #FFDAB9;
 	-webkit-transition:background-color linear 5s;
 	-moz-transition:background-color linear 5s;
 	-o-transition:background-color linear 5s;
 	-ms-transition:background-color linear 5s;
 	transition:background-color linear 5s;
 	overflow-x:hidden;
-	background-image: url();
 }
 .container {
 	display: none;
@@ -1292,22 +1291,24 @@ audio {
 }
 
 .btn-primary {
-        border-color: #466baf;
-        padding: 10px;
+        border-color: #409eff;
+        padding: 12px 20px;
+		font-size: 14px;
+		border-radius: 4px;
         text-transform: uppercase;
         font-family: 'Signika', sans-serif;
         font-weight: 700;
         color: #fff;
-        background-color: #466baf;
+        background-color: #409eff;
 }
     .btn-primary:hover,
     .btn-primary:focus,
     .btn-primary:active,
     .btn-primary.active,
     .open .dropdown-toggle.btn-primary {
-        border-color: #fff;
+        border-color: #66b1ff;
         color: #fff;
-        background-color: #466baf;
+        background-color: #66b1ff;
     }
 
 
